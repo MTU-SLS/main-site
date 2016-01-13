@@ -94,8 +94,11 @@ h1,h2,h3,h4,h5,h6 {
  border-color:transparent;
 }
 .navbar-default .navbar-brand {
- color:#8880d2;
- font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  width:80px;
+  height:41px;
+  background-image:url(../img/logos/Logo_Small.png);
+  background-repeat:no-repeat;
+  margin:5px 0 0 5px; /*better position*/
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
  color:#5E579E;
@@ -144,7 +147,11 @@ h1,h2,h3,h4,h5,h6 {
     border:0
   }
   .navbar-default .navbar-brand {
-    font-size:2em;
+    width:200px;
+    height:102px;
+    background-image:url(../img/logos/Logo_Large.png);
+    background-repeat:no-repeat;
+    background-position: center center;
     -webkit-transition:all .3s;
     -moz-transition:all .3s;
     transition:all .3s
@@ -157,7 +164,10 @@ h1,h2,h3,h4,h5,h6 {
     padding:10px 0
   }
   .navbar-default.navbar-shrink .navbar-brand {
-    font-size:1.5em
+    width:100px;
+    height:51px;
+    background-image:url(../img/logos/Logo_Medium.png);
+    background-repeat:no-repeat;
   }
 }
 header {
