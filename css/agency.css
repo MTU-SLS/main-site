@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6 {
   }
   .navbar-default.navbar-shrink {
     background-color:#222;
-    padding:10px 0
+    padding:10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
     width:100px;
