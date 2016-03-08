@@ -188,7 +188,10 @@ header {
   color:#fff;
 }
 #privacy-header {
-  background-image:url(../img/header-bg_unused.jpg);
+  background-image:url(../img/header-bg_privacy.jpg);
+}
+#tos-header {
+   background-image:url(../img/header-bg_TOS.jpg);
 }
 header .intro-text {
   padding-top:100px;
