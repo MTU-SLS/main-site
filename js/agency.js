@@ -21,6 +21,14 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+$(".navbar-nav li a").click(function(event) {
+  $(".navbar-collapse").collapse('hide');
+});
+
+$(".navbar-toggle").click(function(e) {
+   $(".navbar-collapse").collapse('toggle');
+});
+
+$(".navbar-brand").click(function(event) {
+  $(".navbar-collapse").collapse('hide');
 });
