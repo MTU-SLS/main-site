@@ -281,7 +281,7 @@ section h3.section-subheading{
 }
 @media (min-width:768px){
   section{
-    padding:150px 0;
+    /*padding:150px 0; */
   }
 }
 .service-heading {
@@ -550,7 +550,8 @@ aside.clients img{
 section#employment{
  background-image:url(../img/Employment_Background.png);
  background-position:center;
- background-repeat:no-repeat
+ background-repeat:no-repeat;
+ background-size: cover;
 }
 section#employment .section-heading{
  color:#fff
