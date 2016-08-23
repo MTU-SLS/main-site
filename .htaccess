@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /itss/local/home/sls/public_html/new-site/main-site/.htpasswd  
+require valid-user
