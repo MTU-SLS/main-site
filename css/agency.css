@@ -100,7 +100,8 @@ h1,h2,h3,h4,h5,h6 {
  font-weight:700;
  border-radius:3px;
  font-size:18px;
- padding:20px 40px
+ padding:20px 40px;
+ margin: 10px;
 }
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl {
  color:#fff;
